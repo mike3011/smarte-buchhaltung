@@ -35,7 +35,7 @@ Clockodo (selbst genutzt, Empfehlung), ACHIM (getestet), GetMyInvoices, InvoiceF
 ## Seiten
 
 - [Startseite](https://smarte-buchhaltung.online/): typische Probleme und Lösungen, Alltag mit Lexware Office, Steuerkanzlei, Praxisbeispiele, Pakete, häufige Fragen, Kontakt
-- [Lexware ABC](https://smarte-buchhaltung.online/lexware-abc.html): Funktionen und Begriffe von Lexware Office von A bis Z
+- [Lexware Office ABC](https://smarte-buchhaltung.online/lexware-abc.html): Funktionen und Begriffe von Lexware Office von A bis Z
 - [Schnittstellen](https://smarte-buchhaltung.online/schnittstellen.html): Software an Lexware Office anbinden über Erweiterungen, make.com und Boost.space oder eigene Übersetzer zur Public API; Laborfall Hotelsoftware; Erweiterungen mit eigener Erfahrung
 - [Über uns](https://smarte-buchhaltung.online/ueber-uns.html): Nadine Rau und Mike Trepte, Vorgehen, Arbeitsteilung
 - [Impressum](https://smarte-buchhaltung.online/impressum.html)

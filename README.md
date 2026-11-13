@@ -7,7 +7,7 @@ Statische Seite ohne Build-Schritt: HTML, eine CSS-Datei, lokal eingebundene Sch
 ## Aufbau
 
 - `index.html` – Startseite
-- `lexware-abc.html` – Lexware ABC (A–Z, jeder Buchstabe mit eigenem Anker, z. B. `lexware-abc.html#e`)
+- `lexware-abc.html` – Lexware Office ABC (A–Z, jeder Buchstabe mit eigenem Anker, z. B. `lexware-abc.html#e`)
 - `css/site.css` – alle Styles, Farben und Schriften oben als Variablen
 - `fonts/` – Archivo, Source Sans 3, IBM Plex Mono (Lizenzen liegen daneben)
 - `img/` – Fotos
