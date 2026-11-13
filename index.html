@@ -56,6 +56,7 @@
     <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="nav">Menü</button>
     <nav class="nav" id="nav" aria-label="Hauptnavigation">
       <a href="#lexware">Lexware Office</a>
+      <a href="#steuerbuero">Steuerbüro</a>
       <a href="#schnittstellen">Schnittstellen</a>
       <a href="#praxis">Praxis</a>
       <a href="#pakete">Pakete</a>
@@ -87,7 +88,6 @@
         <figure class="person">
           <div class="person-photo">
             <img src="img/nadine.jpg" width="800" height="800" alt="Nadine Rau">
-            <span class="person-tag">läuft</span>
           </div>
           <figcaption>
             <span class="person-name">Nadine Rau</span>
@@ -97,7 +97,6 @@
         <figure class="person">
           <div class="person-photo">
             <img src="img/mike.jpg" width="800" height="800" alt="Mike Trepte">
-            <span class="person-tag">reinläuft</span>
           </div>
           <figcaption>
             <span class="person-name">Mike Trepte</span>
@@ -120,21 +119,24 @@
           <div class="flow-head"><span class="label">Rein · Mike</span><h3>Deine Quellen</h3></div>
           <ul class="flow-list">
             <li>Rechnungen per E-Mail-Belegeingang</li>
-            <li>Belegfotos aus der App</li>
+            <li>Beleg- und Tankfotos aus der App</li>
             <li>GetMyInvoices</li>
             <li>Zeiterfassung</li>
             <li>Shop-, Kassen- oder Hotelsoftware über die Public API</li>
-            <li>Automationen mit make.com</li>
+            <li>Automationen mit make.com oder Boost.space</li>
           </ul>
         </div>
         <div class="flow-arrow" aria-hidden="true">→</div>
         <div class="flow-col flow-col--core">
           <div class="flow-head"><span class="label">Drinnen · Nadine</span><h3>Lexware Office</h3></div>
           <ul class="flow-list">
-            <li>Einrichtung passend zu deinem Betrieb</li>
-            <li>Belege prüfen und zuordnen</li>
-            <li>Rechnungen, Mahnungen, Kontenabgleich</li>
-            <li>Routinen, die im Alltag halten</li>
+            <li>Angebote, Aufträge und Rechnungen schreiben</li>
+            <li>Belege prüfen, zuordnen und buchen</li>
+            <li>Bankumsätze direkt abrufen, ohne zweites Programm</li>
+            <li>Zahlungseingänge automatisch den Rechnungen zuordnen</li>
+            <li>Eingangsrechnungen per Überweisung direkt aus Lexware Office bezahlen</li>
+            <li>Offene Posten und Mahnungen</li>
+            <li>Kontostände und Auswertungen wie die BWA</li>
           </ul>
         </div>
         <div class="flow-arrow" aria-hidden="true">→</div>
@@ -142,9 +144,11 @@
           <div class="flow-head"><span class="label">Raus · Nadine</span><h3>Finanzamt und Steuerbüro</h3></div>
           <ul class="flow-list">
             <li>Umsatzsteuer-Voranmeldung per ELSTER</li>
+            <li>Zusammenfassende Meldung bei EU-Geschäften</li>
             <li>Lohnabrechnung</li>
-            <li>DATEV-Export und Zugang fürs Steuerbüro</li>
-            <li>Auswertungen wie die BWA</li>
+            <li>Einnahmen-Überschuss-Rechnung</li>
+            <li>Datenübergabe an die Steuerkanzlei per DATEV oder ADDISON</li>
+            <li>Eigener Zugang für deine Steuerkanzlei</li>
           </ul>
         </div>
       </div>
@@ -173,8 +177,7 @@
               <div class="calc-row"><span>Belegsuche gespart</span><span>1 Std. / Monat</span></div>
               <div class="calc-row"><span>× dein Stundensatz</span><span>35,00 €</span></div>
               <div class="calc-row calc-row--sum"><span>Wert der Zeit</span><span>35,00 € / Monat</span></div>
-              <div class="calc-row"><span>Lexware Office XL</span><span>32,90 € netto</span></div>
-              <p class="calc-foot">Die gesparte Zeit bezahlt schon die größte Version.</p>
+              <p class="calc-foot">Damit ist die Monatsgebühr für Lexware Office in der Regel schon wieder drin. Die aktuellen Preise findest du <a href="https://www.lexware.de/preise/" target="_blank" rel="noopener">direkt bei Lexware</a>.</p>
             </div>
           </div>
         </article>
@@ -209,9 +212,10 @@
           <div class="example-aside">
             <div class="prices">
               <span class="label">Lexware Geschäftskonto</span>
-              <div class="price-line"><span>Solo</span><span>9,90 € / Monat</span></div>
-              <div class="price-line"><span>Plus, mehrere Nutzer</span><span>19,90 € / Monat</span></div>
+              <div class="price-line"><span>Monatsgebühr</span><span>fest</span></div>
               <div class="price-line"><span>SEPA-Überweisungen</span><span>ohne Stückpreis</span></div>
+              <div class="price-line"><span>Daueraufträge</span><span>ohne Stückpreis</span></div>
+              <div class="price-line"><span>Umsätze in der Buchhaltung</span><span>automatisch</span></div>
               <p class="calc-foot">Bei uns nach eigener Schätzung: mehrere hundert Euro weniger Kontoführungsgebühren.</p>
             </div>
           </div>
@@ -223,28 +227,63 @@
       </div>
       <div class="table-wrap">
         <table class="versions">
-          <thead><tr><th scope="col">Version</th><th scope="col">Schwerpunkt</th><th scope="col" class="num">Netto / Monat</th></tr></thead>
+          <thead><tr><th scope="col">Version</th><th scope="col">Schwerpunkt</th><th scope="col">Passt, wenn …</th></tr></thead>
           <tbody>
-            <tr><td>S</td><td>Belegerfassung und Archiv</td><td class="num">7,90 €</td></tr>
-            <tr><td>M</td><td>Angebote, (E-)Rechnungen und Mahnungen</td><td class="num">12,90 €</td></tr>
-            <tr><td>L</td><td>Buchhaltung, EÜR und Umsatzsteuer</td><td class="num">21,90 €</td></tr>
-            <tr class="is-api"><td>XL</td><td>EU- und Abschlagsrechnungen, Public API für Schnittstellen</td><td class="num">32,90 €</td></tr>
+            <tr><td>S</td><td>Belegerfassung und Archiv</td><td>deine Steuerkanzlei die Buchhaltung macht</td></tr>
+            <tr><td>M</td><td>Angebote, (E-)Rechnungen und Mahnungen</td><td>du Rechnungen schreibst und die Kanzlei bucht</td></tr>
+            <tr><td>L</td><td>Buchhaltung, EÜR und Umsatzsteuer</td><td>du selbst buchst und die Umsatzsteuer selbst meldest</td></tr>
+            <tr class="is-api"><td>XL</td><td>EU- und Abschlagsrechnungen, Public API</td><td>Schnittstellen zu deiner Software dazukommen</td></tr>
           </tbody>
         </table>
       </div>
       <div class="versions-note">
-        <p>Lohn &amp; Gehalt gibt es als Zusatzmodul für 12,90 € netto im Monat. Für eigene Schnittstellen über die Public API brauchst du XL.</p>
-        <p class="label">Listenpreise laut Lexware, Stand November 2026. Welche Version zu dir passt, klären wir im Erstgespräch.</p>
+        <p>Lohn &amp; Gehalt gibt es als Zusatzmodul. Für eigene Schnittstellen über die Public API brauchst du XL. Welche Version zu dir passt, klären wir im Erstgespräch. Die aktuellen Preise stehen <a href="https://www.lexware.de/preise/" target="_blank" rel="noopener">bei Lexware</a>.</p>
+      </div>
+      <aside class="notice">
+        <span class="label label--red">Gut zu wissen</span>
+        <h3>Wir verkaufen keine Software</h3>
+        <p>Lexware Office buchst du direkt bei Lexware. Der Vertrag läuft zwischen dir und Lexware, und wir verdienen daran nichts. Du bezahlst uns für das, was wir für dich lösen: Einrichtung, Schulung und Schnittstellen, zu einem Preis, den wir vorher vereinbaren.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="steuerbuero">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label label--red">Lexware Office und dein Steuerbüro</p>
+        <h2>Am meisten bringt es, wenn die Daten von selbst zur Kanzlei gehen</h2>
+        <p class="lead">Wie viel du mit Lexware Office sparst, hängt stark davon ab, wie du mit deiner Steuerkanzlei zusammenarbeitest. Aus unserer Erfahrung gibt es drei Wege.</p>
+      </div>
+      <div class="paths">
+        <article class="path">
+          <span class="label">Weg 1</span>
+          <h3>Ohne Steuerkanzlei</h3>
+          <p>Viele Solo-Selbstständige und kleine Betriebe erledigen Buchhaltung, Umsatzsteuer-Voranmeldung und Gewinnermittlung selbst. Mit Lexware Office geht das gut, wenn alles sauber eingerichtet ist. Bei steuerlichen Fragen holst du dir gezielt Rat bei einer Kanzlei.</p>
+        </article>
+        <article class="path path--best">
+          <span class="label label--red">Weg 2 · unsere Empfehlung</span>
+          <h3>Mit einer digitalen Kanzlei</h3>
+          <p>Arbeitet deine Kanzlei mit DATEV oder ADDISON, holt sie sich deine Daten direkt aus Lexware Office. Niemand sucht Belege zusammen oder tippt sie ab. Damit fällt bei der Kanzlei weniger Zeit an, die du bezahlst. Für die DATEV-Anbindung können eigene Gebühren anfallen, das klärst du mit deiner Kanzlei.</p>
+        </article>
+        <article class="path">
+          <span class="label">Weg 3</span>
+          <h3>Mit einer Kanzlei, die auf Papier arbeitet</h3>
+          <p>Auch dann hilft dir Lexware Office im Alltag: Rechnungen, Belege und Bankumsätze sind an einem Ort. Die Übergabe an die Kanzlei bleibt aber Handarbeit. Vielleicht ist das ein guter Anlass, gemeinsam über den digitalen Weg zu sprechen.</p>
+        </article>
+      </div>
+      <div class="tips">
+        <p><strong>Du gründest gerade?</strong> Frag bei der Suche nach einer Kanzlei, ob sie deine Daten aus Lexware Office per DATEV oder ADDISON übernimmt und ob sie schon Mandanten mit Lexware Office betreut. Das spart dir auf Dauer viel Zeit und Geld.</p>
+        <p><strong>Für Steuerkanzleien:</strong> Ihr wünscht euch Mandanten, die ihre Belege sauber und digital liefern? Wir schulen sie in Lexware Office. Sprecht uns an.</p>
       </div>
     </div>
   </section>
 
-  <section class="section section--line" id="schnittstellen">
+  <section class="section" id="schnittstellen">
     <div class="wrap">
       <div class="section-head">
         <p class="label label--red">Schnittstellen · Mike</p>
         <h2>Deine Software spricht mit Lexware Office</h2>
-        <p class="lead">Du schreibst Rechnungen in einem Shop, einer Kasse oder einer Branchensoftware? Dann musst du sie nicht noch einmal in Lexware Office eintippen. Mike verbindet deine Programme mit Lexware Office, damit die Daten von selbst ankommen.</p>
+        <p class="lead">Du schreibst Rechnungen in einem Shop, einer Kasse oder einer Branchensoftware? Dann musst du sie nicht noch einmal in Lexware Office eintippen. Mike verbindet deine Programme mit Lexware Office, damit die Daten von selbst ankommen. Welchen Weg wir dafür nehmen, entscheiden wir danach, was zu deinem Betrieb passt.</p>
       </div>
       <div class="ways">
         <div class="way">
@@ -254,13 +293,18 @@
         </div>
         <div class="way">
           <span class="label">Ohne eigene Programmierung</span>
-          <h3>make.com</h3>
+          <h3>make.com und Boost.space</h3>
           <p>Automationen zwischen deinen Programmen: Wenn hier etwas passiert, passiert dort automatisch der nächste Schritt.</p>
         </div>
         <div class="way">
           <span class="label">Für alles andere · ab XL</span>
           <h3>Public API</h3>
           <p>Die offizielle Schnittstelle von Lexware Office. Damit lässt sich auch Software anbinden, für die es keine fertige Lösung gibt.</p>
+        </div>
+        <div class="way">
+          <span class="label">Neu</span>
+          <h3>KI-Agenten</h3>
+          <p>KI-Assistenten können über Schnittstellen inzwischen selbst mit Lexware Office arbeiten. Wir probieren neue Werkzeuge früh aus und setzen sie ein, wenn sie dir wirklich Arbeit abnehmen.</p>
         </div>
       </div>
       <div class="usecase">
@@ -279,47 +323,50 @@
     <div class="wrap">
       <div class="section-head">
         <p class="label label--red">Aus der Praxis</p>
-        <h2>Drei Betriebe, drei Ausgangslagen</h2>
-        <p class="lead">Namen nennen wir nur, wenn die Betriebe zugestimmt haben.</p>
+        <h2>Was wir umgesetzt haben</h2>
+        <p class="lead">Drei Beispiele aus unserer Arbeit. Namen nennen wir nur mit Zustimmung.</p>
       </div>
       <div class="cases">
         <article class="case">
           <div class="case-head"><span class="label">Betrieb</span><span class="label label--red">Einrichtung · Schulung</span></div>
           <div class="case-body">
-            <h3>2-Personen-GmbH</h3>
+            <h3>Eine GmbH</h3>
             <dl>
-              <div><dt>Was wir gemacht haben</dt><dd>Lexware Office erstmals eingerichtet und das Team für Lohnabrechnung und Umsatzsteuer-Voranmeldung geschult.</dd></div>
-              <div><dt>Ergebnis</dt><dd>Beides erledigt die GmbH jetzt selbst. Das Steuerbüro rechnet dafür nichts mehr ab, und der Zeitaufwand steht in einem sehr günstigen Verhältnis dazu.</dd></div>
+              <div><dt>Was wir gemacht haben</dt><dd>Lexware Office erstmals eingerichtet und das Team für Lohnbuchhaltung und Umsatzsteuer-Voranmeldung geschult.</dd></div>
+              <div><dt>Ergebnis</dt><dd>Beides erledigt die GmbH jetzt selbst. Dafür fallen keine Kosten bei der Steuerkanzlei mehr an, und der Zeitaufwand steht in einem sehr günstigen Verhältnis dazu.</dd></div>
             </dl>
-            <p class="ph">Stimme aus dem Betrieb, ohne Namen</p>
+            <p class="ph">Stimme des Geschäftsführers, ohne Namen</p>
           </div>
         </article>
         <article class="case">
-          <div class="case-head"><span class="label">Betrieb</span><span class="label label--red">Schnittstellen</span></div>
+          <div class="case-head"><span class="label">Betrieb</span><span class="label label--red">Belege · Konto · Kanzlei</span></div>
           <div class="case-body">
-            <h3>2-Personen-GbR</h3>
+            <h3>Eine 2-Personen-GbR</h3>
             <dl>
               <div><dt>Was wir gemacht haben</dt><dd>
                 <ul>
+                  <li>Tank- und Rechnungsbelege per App erfassen</li>
+                  <li>Belegeingang per E-Mail eingerichtet</li>
                   <li>GetMyInvoices angebunden</li>
                   <li>Zeiterfassung <span class="ph-inline">[Name folgt]</span> angebunden</li>
-                  <li>Belegeingang per E-Mail eingerichtet</li>
-                  <li>Tankbelege direkt per App</li>
-                  <li>Lexware Geschäftskonto</li>
+                  <li>Lexware Geschäftskonto eingerichtet</li>
+                  <li>Steuerkanzlei per DATEV angebunden</li>
+                  <li><span class="ph-inline">[Nadine ergänzt]</span></li>
                 </ul>
               </dd></div>
-              <div><dt>Ergebnis</dt><dd>Rund eine Stunde weniger Belegsuche im Monat, Tankbelege gebucht vor der Abfahrt und nach eigener Schätzung mehrere hundert Euro weniger Kontogebühren.</dd></div>
+              <div><dt>Ergebnis</dt><dd>Rund eine Stunde weniger Belegsuche im Monat und Tankbelege gebucht vor der Abfahrt. Die Kanzlei holt sich die Daten selbst, statt sie anzufordern. Dazu nach eigener Schätzung mehrere hundert Euro weniger Kontogebühren.</dd></div>
             </dl>
           </div>
         </article>
         <article class="case">
           <div class="case-head"><span class="label">Betrieb</span><span class="label label--red">Einstieg</span></div>
           <div class="case-body">
-            <h3>Solo-Selbstständige aus Kassel <span class="ph-inline">[Name nach Freigabe]</span></h3>
+            <h3>Eine Solo-Selbstständige aus Kassel <span class="ph-inline">[Name nach Freigabe]</span></h3>
             <dl>
               <div><dt>Was wir gemacht haben</dt><dd>Einstieg in Lexware Office mit einer ersten Schulung.</dd></div>
+              <div><dt>Ergebnis</dt><dd>Keine Rechnungen mehr in Excel und keine Listen mehr, damit keine Rechnungsnummer doppelt vergeben wird. Alles ist an einem Ort. Auch ohne eigenes Geschäftskonto ordnet sie die betrieblichen Umsätze sauber zu.</dd></div>
             </dl>
-            <p class="ph">Ergebnis in ein, zwei Sätzen und eine Stimme der Kundin, sobald sie zugestimmt hat</p>
+            <p class="ph">Stimme der Kundin, sobald sie zugestimmt hat</p>
           </div>
         </article>
       </div>
@@ -364,10 +411,10 @@
         <article class="package package--new">
           <div class="package-name"><span class="label">Mit Mike</span><h3>Schnittstelle nach Maß</h3></div>
           <div class="package-desc">
-            <p>Wir schauen, woher deine Daten kommen, und verbinden deine Software mit Lexware Office: über Partner-Apps, make.com oder die Public API. Du bekommst vorher ein Angebot.</p>
+            <p>Wir schauen, woher deine Daten kommen, und verbinden deine Software mit Lexware Office. Du bezahlst für die Lösung, nicht für Stunden, und kennst den Preis vorher.</p>
             <p class="label">Online · Umfang nach Analyse</p>
           </div>
-          <div class="package-price"><strong>nach Aufwand</strong><span>Angebot vorab</span></div>
+          <div class="package-price"><strong>Festpreis</strong><span>nach Analyse, vorab vereinbart</span></div>
           <a class="btn btn--sm btn--ghost" href="#kontakt">Anfragen</a>
         </article>
       </div>
@@ -383,7 +430,7 @@
       </div>
       <div class="people">
         <div class="bio">
-          <div class="bio-head"><img src="img/nadine.jpg" width="64" height="64" alt=""><div><span class="label">Läuft</span><h3>Nadine Rau</h3></div></div>
+          <div class="bio-head"><img src="img/nadine.jpg" width="64" height="64" alt=""><div><span class="label">Lexware Office Coach</span><h3>Nadine Rau</h3></div></div>
           <p>Nadine ist seit über 15 Jahren selbstständig und hat ihre Buchhaltung in all der Zeit selbst geführt: mit DATEV, mit Branchensoftware und seit fünf Jahren täglich mit Lexware Office. Sie erklärt ohne Fachsprache, Schritt für Schritt und in deinem Tempo.</p>
           <ul class="facts">
             <li>Zertifizierte Lexware Office Expertin &amp; Coach</li>
@@ -393,7 +440,7 @@
           </ul>
         </div>
         <div class="bio">
-          <div class="bio-head"><img src="img/mike.jpg" width="64" height="64" alt=""><div><span class="label">Reinläuft</span><h3>Mike Trepte</h3></div></div>
+          <div class="bio-head"><img src="img/mike.jpg" width="64" height="64" alt=""><div><span class="label">Lexware-Integrationsexperte</span><h3>Mike Trepte</h3></div></div>
           <p>Mike ist Diplom-Wirtschaftsingenieur und hat 13,5 Jahre lang eine Buchhandelsgruppe mit mehreren Standorten aufgebaut und geführt. Heute verbindet er Lexware Office mit der Software, die du schon nutzt. Vieles davon testet er vorher in seiner eigenen Testumgebung.</p>
           <ul class="facts">
             <li>Lexware Public API</li>
