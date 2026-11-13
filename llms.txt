@@ -6,7 +6,7 @@
 
 - Nadine Rau: zertifizierte Lexware Office Expertin & Coach. Einrichtung, Schulung, laufende Buchhaltung, Lohnabrechnung und Umsatzsteuer-Voranmeldung (als Schulung, damit Kunden sie selbst erledigen).
 - Mike Trepte: Integrations- und Automatisierungsexperte. Anbindung externer Software an Lexware Office über fertige Erweiterungen, make.com und Boost.space oder eigene Übersetzer zur Lexware Public API.
-- Erfahrung aus der Praxis: seit knapp 20 Jahren selbstständig; fast 14 Jahre als Unternehmer mit mehreren Standorten und saisonal 15 bis 25 Mitarbeitenden; heute ohne Angestellte in Coaching, Beratung, Training und Gastronomie. Seit 2008 mit verschiedenen Buchhaltungsprogrammen als Anwender, rund acht Jahre mit DATEV, seit über fünf Jahren mit Lexware Office.
+- Erfahrung aus der Praxis: seit knapp 20 Jahren selbstständig; fast 14 Jahre als Unternehmer im Einzelhandel mit mehreren Standorten, mehreren Kassen und Kassensystemen und saisonal 15 bis 25 Mitarbeitenden; heute ohne Angestellte in Coaching, Beratung, Training und Gastronomie. Seit 2008 mit verschiedenen Buchhaltungsprogrammen als Anwender, rund acht Jahre mit DATEV, seit über fünf Jahren mit Lexware Office.
 - Sitz: Bettenhäuserstr. 1, 34123 Kassel. Telefon 0561 / 43027276.
 
 ## Typische Probleme, die wir lösen
@@ -32,12 +32,12 @@ Wir verkaufen Lexware Office nicht. Der Vertrag läuft direkt zwischen Kunde und
 
 ## Erweiterungen mit eigener Erfahrung
 
-Clockodo (selbst genutzt, Empfehlung), ACHIM (getestet), GetMyInvoices, InvoiceFetcher, Amazon Business, DATEV, ADDISON, ELSTER, smartsteuer.
+Clockodo (selbst genutzt, Empfehlung), ACHIM (getestet), GetMyInvoices, InvoiceFetcher, Spesenfuchs, Amazon Business, DATEV, ADDISON, ELSTER, smartsteuer.
 
 ## Seiten
 
 - [Startseite](https://smarte-buchhaltung.online/): typische Probleme und Lösungen, Alltag mit Lexware Office, Steuerkanzlei, Praxisbeispiele, Pakete, häufige Fragen, Kontakt
 - [Lexware Office ABC](https://smarte-buchhaltung.online/lexware-abc.html): Funktionen und Begriffe von Lexware Office von A bis Z
-- [Schnittstellen](https://smarte-buchhaltung.online/schnittstellen.html): Software an Lexware Office anbinden über Erweiterungen, make.com und Boost.space oder eigene Übersetzer zur Public API; Laborfall Hotelsoftware; Erweiterungen mit eigener Erfahrung
+- [Schnittstellen](https://smarte-buchhaltung.online/schnittstellen.html): Software an Lexware Office anbinden über Erweiterungen, make.com und Boost.space oder eigene Übersetzer zur Public API; Hotelsoftware aus dem Schnittstellen-Labor; Erweiterungen mit eigener Erfahrung
 - [Über uns](https://smarte-buchhaltung.online/ueber-uns.html): Nadine Rau und Mike Trepte, Vorgehen, Arbeitsteilung
 - [Impressum](https://smarte-buchhaltung.online/impressum.html)

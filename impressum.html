@@ -96,6 +96,12 @@
 
 <script>
 (function () {
+  try {
+    var nt = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+    if (!location.hash && (!nt || nt.type === "navigate")) document.documentElement.scrollIntoView({ block: "start", behavior: "instant" });
+  } catch (e) {}
+})();
+(function () {
   var btn = document.getElementById("menu-btn");
   var nav = document.getElementById("nav");
   if (btn && nav) {

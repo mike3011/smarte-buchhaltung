@@ -348,7 +348,7 @@ p { margin: 0; }
   color: var(--red);
   line-height: 1;
 }
-.flow-note { margin-top: 24px; max-width: 70ch; color: var(--ink-2); }
+.flow-note { margin-top: 24px; padding: 16px 20px; background: var(--tint); border-left: 3px solid var(--red); color: var(--ink-2); }
 @media (max-width: 900px) {
   .flow { grid-template-columns: minmax(0, 1fr); }
   .flow-arrow { justify-self: center; transform: rotate(90deg); }
@@ -474,7 +474,7 @@ p { margin: 0; }
 @media (max-width: 720px) { .usecase { grid-template-columns: minmax(0, 1fr); } }
 
 /* Praxis-Fälle */
-.cases { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.cases { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 @media (max-width: 960px) { .cases { grid-template-columns: minmax(0, 1fr); } }
 .case {
   background: var(--paper);
@@ -495,7 +495,9 @@ p { margin: 0; }
 .case dl { margin: 0; display: grid; gap: 12px; }
 .case dt { font-size: var(--t-sm); font-weight: 600; color: var(--muted); }
 .case dd { margin: 2px 0 0; font-size: var(--t-sm); }
-.case ul { margin: 2px 0 0; padding-left: 18px; font-size: var(--t-sm); }
+.case ul { margin: 2px 0 0; padding: 0; list-style: none; display: grid; gap: 4px; font-size: var(--t-sm); }
+.case li { position: relative; padding-left: 14px; }
+.case li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; background: var(--red); }
 
 .ph {
   border: 1.5px dashed var(--red);
@@ -562,7 +564,7 @@ p { margin: 0; }
 .bio p { color: var(--ink-2); }
 .facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: var(--t-sm); }
 .facts li { display: grid; grid-template-columns: 18px minmax(0, 1fr); }
-.facts li::before { content: "+"; font-family: var(--f-mono); color: var(--red); font-weight: 500; }
+.facts li::before { content: ""; width: 6px; height: 6px; margin-top: 0.62em; background: var(--red); }
 .together { margin-top: 32px; font-size: var(--t-sm); color: var(--muted); }
 
 /* ABC-Teaser */
@@ -724,7 +726,7 @@ p { margin: 0; }
 .pros li { display: grid; grid-template-columns: 18px minmax(0, 1fr); }
 .pros .pro::before { content: "+"; font-family: var(--f-mono); font-weight: 500; color: var(--ink); }
 .pros .con::before { content: "–"; font-family: var(--f-mono); font-weight: 500; color: var(--red); }
-.routes-note { margin-top: 24px; max-width: 72ch; font-size: var(--t-sm); color: var(--ink-2); }
+.routes-note { margin-top: 24px; padding: 16px 20px; background: var(--tint); border-left: 3px solid var(--red); font-size: var(--t-sm); color: var(--ink-2); }
 
 /* Erweiterungen */
 .exts { margin-top: clamp(40px, 5vw, 64px); display: grid; gap: 8px; }

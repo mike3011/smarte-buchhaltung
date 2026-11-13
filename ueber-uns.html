@@ -37,7 +37,7 @@
       <div class="section-head">
         <h1 class="page-h1">Wer wir sind</h1>
         <p class="lead">Nadine sorgt dafür, dass in Lexware Office alles läuft. Mike sorgt dafür, dass alles reinläuft.</p>
-        <p>Wir sind seit knapp 20 Jahren selbstständig, in ganz unterschiedlichen Rollen. Fast 14 Jahre lang waren wir Unternehmer mit mehreren Standorten und je nach Saison 15 bis 25 Mitarbeitenden. Heute arbeiten wir ohne Angestellte in Coaching, Beratung, Training und Gastronomie. Buchhaltung kennen wir also mit Personal, Lohn und Filialen genauso wie als kleiner Betrieb, der alles selbst im Blick behalten will.</p>
+        <p>Wir sind seit knapp 20 Jahren selbstständig, fast 14 Jahre davon als Unternehmer im Einzelhandel, mit mehreren Standorten, mehreren Kassen und Kassensystemen und je nach Saison 15 bis 25 Mitarbeitenden. Heute arbeiten wir ohne Angestellte in Coaching, Beratung, Training und Gastronomie. Buchhaltung kennen wir also mit Personal, Lohn, Filialen und Kassen genauso wie als kleiner Betrieb, der alles selbst im Blick behalten will.</p>
       </div>
       <div class="people">
         <div class="bio">
@@ -56,11 +56,11 @@
         </div>
         <div class="bio">
           <div class="bio-head"><img src="img/mike.jpg" width="64" height="64" alt=""><div><span class="label">Integrations- und Automatisierungsexperte</span><h3>Mike Trepte</h3></div></div>
-          <p>Mike ist Diplom-Wirtschaftsingenieur und hat fast 14 Jahre lang eine Buchhandelsgruppe mit mehreren Standorten aufgebaut und geführt. Heute verbindet er Lexware Office mit der Software, die du schon nutzt. Vieles davon testet er vorher in seiner eigenen Testumgebung.</p>
+          <p>Mike ist Diplom-Wirtschaftsingenieur und hat fast 14 Jahre lang eine Buchhandelsgruppe mit mehreren Standorten aufgebaut und geführt. Heute verbindet er Lexware Office mit der Software, die du schon nutzt. Vieles davon testet er vorher in seinem Schnittstellen-Labor.</p>
           <ul class="facts">
             <li>Public API von Lexware Office</li>
             <li>Eigenes Schnittstellen-Labor mit make.com und Boost.space</li>
-            <li>Erweiterungen wie GetMyInvoices, Clockodo und Amazon Business</li>
+            <li>Erweiterungen, z. B. GetMyInvoices, Clockodo und Amazon Business</li>
           </ul>
         </div>
       </div>
@@ -110,7 +110,7 @@
           <ul class="flow-list">
             <li>Rechnungen per E-Mail-Belegeingang</li>
             <li>Beleg- und Tankfotos aus der App</li>
-            <li>GetMyInvoices</li>
+            <li>Online-Portale, z. B. über GetMyInvoices</li>
             <li>Zeiterfassung</li>
             <li>Kartenzahlungen aus SumUp</li>
             <li>Shop-, Kassen- oder Hotelsoftware über die Public API</li>
@@ -138,7 +138,7 @@
             <li>Umsatzsteuer-Voranmeldung per ELSTER</li>
             <li>Zusammenfassende Meldung bei EU-Geschäften</li>
             <li>Lohnabrechnung</li>
-            <li>Einnahmen-Überschuss-Rechnung</li>
+            <li>Einnahmen-Überschuss-Rechnung (EÜR)</li>
             <li>Datenübergabe an die Steuerkanzlei per DATEV oder ADDISON</li>
             <li>Eigener Zugang für deine Steuerkanzlei</li>
           </ul>
@@ -192,6 +192,12 @@
 </footer>
 
 <script>
+(function () {
+  try {
+    var nt = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+    if (!location.hash && (!nt || nt.type === "navigate")) document.documentElement.scrollIntoView({ block: "start", behavior: "instant" });
+  } catch (e) {}
+})();
 (function () {
   var btn = document.getElementById("menu-btn");
   var nav = document.getElementById("nav");
