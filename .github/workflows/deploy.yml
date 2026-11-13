@@ -15,4 +15,5 @@ jobs:
           port: 22
           password: ${{ secrets.FTP_PASSWORD }}
           local_path: './*'
-          remote_path: 'smarte-buchhaltung/'
+          remote_path: 'smarte_buchhaltung_Webspace_2026/'
+
