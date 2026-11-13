@@ -12,10 +12,6 @@
 </head>
 <body>
 
-<div class="draftbar" role="note">
-  <div class="wrap">Entwurf vom 13.11.2026 · <mark>Rot gestrichelte Stellen</mark> sind Platzhalter, die noch gefüllt werden.</div>
-</div>
-
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="./" aria-label="Smarte Buchhaltung Online, zur Startseite">
@@ -91,7 +87,7 @@
           <li><a href="schnittstellen.html">Schnittstellen</a></li>
           <li><a href="lexware-abc.html">Lexware ABC</a></li>
           <li><a href="impressum.html">Impressum</a></li>
-          <li>Datenschutz <span class="ph-inline">folgt</span></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
         </ul>
       </div>
     </div>
@@ -112,19 +108,46 @@
       if (e.target.closest("a")) { nav.classList.remove("is-open"); btn.setAttribute("aria-expanded", "false"); }
     });
   }
+
   var form = document.getElementById("contact-form");
   var status = document.getElementById("form-status");
-  if (form && status) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      if (!form.checkValidity()) {
-        status.textContent = "Bitte fülle Vorname, Nachname, E-Mail aus und bestätige den Datenschutzhinweis.";
-      } else {
-        status.textContent = "Entwurf: Das Formular wird beim Umzug angebunden. Es wurde nichts gesendet.";
-      }
-      status.hidden = false;
-    });
+  if (!form || !status) return;
+  var isLive = /(^|\.)smarte-buchhaltung\.online$/.test(location.hostname);
+
+  function show(msg, ok) {
+    status.textContent = msg;
+    status.className = "form-status" + (ok ? " is-ok" : " is-error");
+    status.hidden = false;
   }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!form.checkValidity()) {
+      show("Bitte fülle Vorname, Nachname und E-Mail aus und bestätige den Datenschutzhinweis.", false);
+      return;
+    }
+    if (!isLive) {
+      show("Vorschau: Auf der echten Seite wird die Nachricht jetzt gesendet. Hier wurde nichts verschickt.", true);
+      return;
+    }
+    var submit = form.querySelector("button[type=submit]");
+    var label = submit.textContent;
+    submit.disabled = true;
+    submit.textContent = "Wird gesendet …";
+    form.querySelector("[name=zeitstempel]").value = new Date().toISOString().slice(0, 19);
+    var fd = new FormData(form);
+    // Thema und Belegmenge zusätzlich vorn ins Nachrichtenfeld, falls die Webhook-Strecke nur bekannte Felder weitergibt
+    fd.set("nachricht", "Anliegen: " + fd.get("anliegen") + "\nBelege pro Monat: " + fd.get("belege") + "\n\n" + (fd.get("nachricht") || ""));
+    fetch(form.dataset.webhook, { method: "POST", body: fd, mode: "no-cors" })
+      .then(function () {
+        form.reset();
+        show("Danke. Deine Nachricht ist bei uns angekommen. Wir melden uns persönlich, meistens innerhalb eines Werktags.", true);
+      })
+      .catch(function () {
+        show("Die Nachricht ist nicht angekommen. Schreib uns bitte direkt an nadine.rau@smarte-buchhaltung.online.", false);
+      })
+      .then(function () { submit.disabled = false; submit.textContent = label; });
+  });
 })();
 </script>
 </body>

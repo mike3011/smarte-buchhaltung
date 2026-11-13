@@ -11,8 +11,16 @@ Statische Seite ohne Build-Schritt: HTML, eine CSS-Datei, lokal eingebundene Sch
 - `css/site.css` – alle Styles, Farben und Schriften oben als Variablen
 - `fonts/` – Archivo, Source Sans 3, IBM Plex Mono (Lizenzen liegen daneben)
 - `img/` – Fotos
+- `schnittstellen.html`, `ueber-uns.html`, `impressum.html`, `datenschutz.html` – Unterseiten
+- `llms.txt`, `robots.txt`, `sitemap.xml` – für Suchmaschinen und KI-Systeme
 
-## Stand
+## Veröffentlichen
 
-Entwurf. Platzhalter sind auf der Seite rot gestrichelt markiert.
-Noch offen: Impressum, Datenschutz, Integrationsseite, Formular-Anbindung, Deployment.
+Jeder Push auf `main` wird per GitHub Action auf Strato in den Ordner `smarte-buchhaltung/` geladen.
+Dafür braucht das Repo drei Secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`.
+Größere Änderungen erst auf einem eigenen Branch vorbereiten und ansehen, dann nach `main`.
+
+## Kontaktformular
+
+Sendet per Webhook an Boost.space (wie Leadership Masters), erkennbar am Feld `source = smarte-buchhaltung`.
+Auf anderen Adressen als smarte-buchhaltung.online (Vorschau, lokal) wird nichts gesendet.
