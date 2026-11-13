@@ -31,7 +31,7 @@ Wir verkaufen Lexware Office nicht. Der Vertrag läuft direkt zwischen Kunde und
 
 ## Erweiterungen mit eigener Erfahrung
 
-Clockodo (selbst genutzt, Empfehlung), SumUp für Kartenzahlungen (selbst genutzt), ACHIM (getestet), GetMyInvoices, InvoiceFetcher, Amazon Business, DATEV, ADDISON, ELSTER, smartsteuer.
+Clockodo (selbst genutzt, Empfehlung), ACHIM (getestet), GetMyInvoices, InvoiceFetcher, Amazon Business, DATEV, ADDISON, ELSTER, smartsteuer.
 
 ## Seiten
 
