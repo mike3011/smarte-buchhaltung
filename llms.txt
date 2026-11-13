@@ -1,11 +1,11 @@
 # Smarte Buchhaltung Online
 
-> Lexware Office einrichten, verstehen und mit der eigenen Software verbinden. Nadine Rau (zertifizierte Lexware Office Coach) und Mike Trepte (Lexware-Integrationsexperte), Nadine Rau u. Mike Trepte GbR, Kassel. Überwiegend online für Selbstständige und kleine Unternehmen in ganz Deutschland, Schulungen auf Wunsch vor Ort.
+> Lexware Office einrichten, verstehen und mit der eigenen Software verbinden. Nadine Rau (zertifizierte Lexware Office Coach) und Mike Trepte (Integrations- und Automatisierungsexperte), Nadine Rau u. Mike Trepte GbR, Kassel. Überwiegend online für Selbstständige und kleine Unternehmen in ganz Deutschland, Schulungen auf Wunsch vor Ort.
 
 ## Wer wir sind
 
 - Nadine Rau: zertifizierte Lexware Office Expertin & Coach. Einrichtung, Schulung, laufende Buchhaltung, Lohnabrechnung und Umsatzsteuer-Voranmeldung (als Schulung, damit Kunden sie selbst erledigen).
-- Mike Trepte: Lexware-Integrationsexperte. Anbindung externer Software an Lexware Office über fertige Erweiterungen, make.com und Boost.space oder eigene Übersetzer zur Lexware Public API.
+- Mike Trepte: Integrations- und Automatisierungsexperte. Anbindung externer Software an Lexware Office über fertige Erweiterungen, make.com und Boost.space oder eigene Übersetzer zur Lexware Public API.
 - Erfahrung aus der Praxis: seit knapp 20 Jahren selbstständig; 13,5 Jahre als Unternehmer mit mehreren Standorten und saisonal 15 bis 25 Mitarbeitenden; heute ohne Angestellte in Coaching, Beratung, Training und Gastronomie. Seit 2008 mit verschiedenen Buchhaltungsprogrammen als Anwender, rund acht Jahre mit DATEV, seit über fünf Jahren mit Lexware Office.
 - Sitz: Bettenhäuserstr. 1, 34123 Kassel. Telefon 0561 / 43027276.
 
