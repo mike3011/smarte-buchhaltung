@@ -805,7 +805,7 @@ p { margin: 0; }
 .hero-title .label { font-size: var(--t-md); }
 .section-cta { margin-top: clamp(28px, 4vw, 40px); }
 .seal { display: flex; align-items: center; gap: 14px; font-size: var(--t-sm); color: var(--ink-2); text-decoration: none; max-width: 34rem; }
-.seal img { width: 84px; height: auto; flex: none; }
+.seal img { width: 72px; height: auto; flex: none; }
 .seal-link { color: var(--ink); text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: 3px; }
 .seal:hover .seal-link { color: var(--red-ink); }
 .ways-contact { display: grid; gap: 18px; }
