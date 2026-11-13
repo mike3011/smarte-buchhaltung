@@ -781,3 +781,21 @@ p { margin: 0; }
 .problem-after { color: var(--ink-2); }
 .problems-cta { margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; }
 .problems-cta p { font-size: var(--t-md); color: var(--ink-2); }
+
+/* Nutzen */
+.gains { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+@media (max-width: 1000px) { .gains { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .gains { grid-template-columns: minmax(0, 1fr); } }
+.gain { display: grid; gap: 8px; align-content: start; border-top: 2px solid var(--red); padding-top: 16px; min-width: 0; }
+.gain p { font-size: var(--t-sm); color: var(--ink-2); }
+
+/* Team-Teaser */
+.team { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: center; }
+@media (max-width: 720px) { .team { grid-template-columns: minmax(0, 1fr); } }
+.team-photos { display: flex; gap: 12px; }
+.team-photos img { width: clamp(96px, 12vw, 140px); height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; }
+.team-copy { display: grid; gap: 14px; }
+
+/* Unterseiten */
+.page-first { padding-top: clamp(40px, 6vw, 80px); }
+.page-h1 { font-size: var(--t-2xl); font-stretch: 112%; font-weight: 800; letter-spacing: -0.015em; }
