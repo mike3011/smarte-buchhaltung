@@ -16,7 +16,7 @@ Statische Seite ohne Build-Schritt: HTML, eine CSS-Datei, lokal eingebundene Sch
 
 ## Veröffentlichen
 
-Jeder Push auf `main` wird per GitHub Action auf Strato in den Ordner `smarte-buchhaltung/` geladen.
+Jeder Push auf `main` wird per GitHub Action auf Strato in den Ordner `smarte_buchhaltung_Webspace_2026/` geladen.
 Dafür braucht das Repo drei Secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`.
 Größere Änderungen erst auf einem eigenen Branch vorbereiten und ansehen, dann nach `main`.
 
@@ -24,3 +24,4 @@ Größere Änderungen erst auf einem eigenen Branch vorbereiten und ansehen, dan
 
 Sendet per Webhook an Boost.space (wie Leadership Masters), erkennbar am Feld `source = smarte-buchhaltung`.
 Auf anderen Adressen als smarte-buchhaltung.online (Vorschau, lokal) wird nichts gesendet.
+
