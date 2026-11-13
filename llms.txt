@@ -14,6 +14,7 @@
 - Hektik vor der Umsatzsteuer-Voranmeldung zum 10. des Monats, weil Belege fehlen
 - Rechnungen liegen verstreut in Postfach, Portalen und Papierstapeln
 - Rechnungen werden in Excel geschrieben, Rechnungsnummern per Liste verwaltet
+- Unsicherheit bei der E-Rechnung: Rechnungen aus Excel oder Word sind keine E-Rechnungen; Pflicht für Rechnungen an Unternehmen ab 2027 (über 800.000 € Vorjahresumsatz) bzw. 2028 (alle). Mit Lexware Office (ab Version M, einmal aktiviert) gehen Rechnungen an Geschäftskunden automatisch als E-Rechnung raus.
 - Daten aus Kasse, Shop oder Branchensoftware werden doppelt abgetippt
 - Die Steuerkanzlei fordert ständig Unterlagen an und rechnet die Zeit ab
 - Kein Überblick über offene Rechnungen, Zahlungen und Kontostände
