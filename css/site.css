@@ -681,6 +681,9 @@ p { margin: 0; }
 .abc-item > div { min-width: 0; }
 .abc-item p { color: var(--ink-2); max-width: 62ch; }
 .abc-item--skip h2 { color: var(--muted); }
+.abc-more { margin-top: 8px; font-size: var(--t-sm); }
+.abc-more a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: 3px; }
+.abc-more a:hover { color: var(--red-ink); }
 @media (max-width: 560px) {
   .abc-item { grid-template-columns: 56px minmax(0, 1fr); gap: 14px; }
   .abc-letter { font-size: 2.2rem; }
