@@ -822,12 +822,10 @@ p { margin: 0; }
 /* Kopfbereich: zwei Einstiege, Beleg-Kasten, Ersteinrichtungs-Liste */
 .hero-paths { display: grid; gap: 14px; font-size: var(--t-lg); line-height: 1.5; color: var(--ink-2); max-width: 58ch; }
 .hero-paths strong { color: var(--ink); font-weight: 600; }
-.hero-proof { background: var(--ink); color: #d9d2d4; }
+.hero-proof { background: #e7e1e2; color: var(--ink-2); border-block: 1px solid #d8d0d2; }
 .hero-proof .wrap { padding-block: clamp(24px, 3.5vw, 36px); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px 40px; align-items: center; }
-.proof-text { font-size: var(--t-lg); line-height: 1.5; }
-.proof-text strong { color: #ffffff; font-weight: 600; }
-.btn--light { background: transparent; color: #ffffff; border-color: #ffffff; }
-.btn--light:hover { background: #ffffff; color: var(--ink); border-color: #ffffff; }
+.proof-text { font-size: var(--t-lg); line-height: 1.5; padding-left: 18px; border-left: 4px solid var(--red); }
+.proof-text strong { color: var(--ink); font-weight: 600; }
 @media (max-width: 760px) { .hero-proof .wrap { grid-template-columns: minmax(0, 1fr); } .proof-text { font-size: var(--t-md); } .hero-proof .btn { justify-self: start; } }
 .package-list { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 4px; }
 .package-list li { position: relative; padding-left: 14px; }
