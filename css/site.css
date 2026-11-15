@@ -818,3 +818,16 @@ p { margin: 0; }
 .way-contact h3 { font-size: var(--t-lg); }
 .way-contact p { font-size: var(--t-sm); color: var(--ink-2); }
 .way-contact .btns { margin-top: 6px; }
+
+/* Kopfbereich: zwei Einstiege, Beleg-Kasten, Ersteinrichtungs-Liste */
+.hero-paths { display: grid; gap: 14px; font-size: var(--t-lg); line-height: 1.5; color: var(--ink-2); max-width: 58ch; }
+.hero-paths strong { color: var(--ink); font-weight: 600; }
+.hero-proof { background: var(--tint); border-block: 1px solid var(--line); }
+.hero-proof .wrap { padding-block: clamp(20px, 3vw, 28px); }
+.hero-proof p { max-width: 80ch; color: var(--ink-2); }
+.hero-proof strong { color: var(--ink); }
+.hero-proof a { color: var(--red-ink); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+.package-list { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 4px; }
+.package-list li { position: relative; padding-left: 14px; }
+.package-list li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; background: var(--red); }
+.duo { align-items: start; }
