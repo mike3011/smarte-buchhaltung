@@ -721,7 +721,7 @@ p { margin: 0; }
 .tips strong { color: var(--ink); font-weight: 600; }
 
 /* Schnittstellen: drei Wege */
-.routes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.routes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 24px; }
 @media (max-width: 900px) { .routes { grid-template-columns: minmax(0, 1fr); } }
 .route { display: grid; gap: 10px; align-content: start; border-top: 2px solid var(--ink); padding-top: 16px; min-width: 0; }
 .route p { font-size: var(--t-sm); color: var(--ink-2); }

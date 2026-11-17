@@ -5,7 +5,7 @@
 ## Wer wir sind
 
 - Nadine Rau: zertifizierte Lexware Office Expertin & Coach. Einrichtung, Schulung, laufende Buchhaltung, Lohnabrechnung und Umsatzsteuer-Voranmeldung (als Schulung, damit Kunden sie selbst erledigen).
-- Mike Trepte: Integrations- und Automatisierungsexperte. Anbindung externer Software an Lexware Office über fertige Erweiterungen, make.com und Boost.space oder individuelle Anbindungen über die Lexware Public API.
+- Mike Trepte: Integrations- und Automatisierungsexperte. Anbindung externer Software an Lexware Office über fertige Erweiterungen, make.com und Boost.space oder individuelle Anbindungen über die Lexware Public API; Anbindung von KI-Assistenten wie Claude oder ChatGPT über den Lexware Office MCP (seit November 2026, in Lexware Office XL).
 - Erfahrung aus der Praxis: seit knapp 20 Jahren selbstständig; fast 14 Jahre als Unternehmer im Einzelhandel mit mehreren Standorten, mehreren Kassen und Kassensystemen und saisonal 15 bis 25 Mitarbeitenden; heute ohne Angestellte in Coaching, Beratung, Training und Gastronomie. Seit 2008 mit verschiedenen Buchhaltungsprogrammen als Anwender, rund acht Jahre mit DATEV, seit über fünf Jahren mit Lexware Office.
 - Sitz: Bettenhäuser Str. 1, 34123 Kassel. Telefon 0561 / 43027276.
 
@@ -25,7 +25,7 @@
 - Smarter Start: ca. 4 Wochen Begleitung, online, auf Wunsch vor Ort, 1.500 € zzgl. MwSt.
 - Rundum smart: laufende, individuelle Begleitung, Preis nach Absprache.
 - Digitales Kassenbuch in Lexware Office (ab Version L): eingeführt in der eigenen GbR, mit Kartenzahlungen über SumUp, und bei einer Solo-Selbstständigen.
-- Schnittstelle nach Maß: Anbindung von Shop-, Kassen- oder Branchensoftware an Lexware Office, Festpreis nach Analyse.
+- Schnittstelle nach Maß: Anbindung von Shop-, Kassen- oder Branchensoftware an Lexware Office, auf Wunsch auch von KI-Assistenten über den Lexware Office MCP, Festpreis nach Analyse.
 - Erstgespräch: kostenfrei und unverbindlich.
 - Abrechnung bewusst über Paketpreise, damit Kunden jederzeit nachfragen können; auf Wunsch auch minutengenau nach Aufwand.
 
@@ -33,12 +33,12 @@ Wir verkaufen Lexware Office nicht. Der Vertrag läuft direkt zwischen Kunde und
 
 ## Erweiterungen mit eigener Erfahrung
 
-Clockodo (selbst genutzt, Empfehlung), ACHIM (getestet), GetMyInvoices, InvoiceFetcher, Spesenfuchs, Amazon Business, DATEV, ADDISON, ELSTER, smartsteuer.
+Clockodo (selbst genutzt, Empfehlung), Lexware Office MCP für Claude und ChatGPT (getestet, Empfehlung für Nutzer dieser KI-Assistenten), ACHIM (getestet), GetMyInvoices, InvoiceFetcher, Spesenfuchs, Amazon Business, DATEV, ADDISON, ELSTER, smartsteuer.
 
 ## Seiten
 
 - [Startseite](https://smarte-buchhaltung.online/): typische Probleme und Lösungen, Alltag mit Lexware Office, Steuerkanzlei, Praxisbeispiele, Pakete, häufige Fragen, Kontakt
 - [Lexware Office ABC](https://smarte-buchhaltung.online/lexware-abc.html): Funktionen und Begriffe von Lexware Office von A bis Z, jeweils mit Link zum passenden Artikel der offiziellen Lexware-Hilfe
-- [Schnittstellen](https://smarte-buchhaltung.online/schnittstellen.html): Software an Lexware Office anbinden über fertige Erweiterungen, make.com und Boost.space oder eine individuelle Anbindung über die Public API; Erweiterungen mit eigener Erfahrung
+- [Schnittstellen](https://smarte-buchhaltung.online/schnittstellen.html): Software an Lexware Office anbinden über fertige Erweiterungen, make.com und Boost.space, KI-Assistenten über den Lexware Office MCP oder eine individuelle Anbindung über die Public API; Erweiterungen mit eigener Erfahrung
 - [Über uns](https://smarte-buchhaltung.online/ueber-uns.html): Nadine Rau und Mike Trepte, Vorgehen, Arbeitsteilung
 - [Impressum](https://smarte-buchhaltung.online/impressum.html)
